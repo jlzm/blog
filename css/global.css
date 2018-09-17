@@ -1,0 +1,133 @@
+*{
+    -webkit-box-sizing: border-box;
+}
+
+html{
+    -webkit-font-family: sans-serif;
+    font-size:14px;
+    
+}
+
+body, h1, h2, h3, h4, ul, il, p{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    /* display: inline-block; */
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    min-width: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 1280px;
+    margin:0px auto;
+   
+}
+
+.row{
+    font-size: 0;
+    display: block;
+}
+
+.cf::after, .cf::before{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+[class*="col-"], .col{
+    /* display: inline-block; */
+    vertical-align: top;
+    font-size: 1rem;
+    /* === */
+    /* border: 1px solid #000; */
+    min-height: 20px;
+}
+
+.col-lg-1{
+    width: 8.33333333%;
+}
+
+.col-lg-2{
+    width: 16.66666666%;
+}
+
+.col-lg-3{
+    width: 25%;
+}
+
+.col-lg-4{
+    width:33.33333333%;
+}
+
+.col-lg-5{
+    width: 41.66666666%;
+}
+
+.col-lg-6{
+    width: 50%;
+}
+
+.col-lg-7{
+    width: 58.33333333%; 
+}
+
+.col-lg-8{
+    width: 66.66666666%;
+}
+
+.col-lg-9{
+    width: 75%;
+}
+
+.col-lg-10{
+    width: 83.333333335%;
+}
+
+.col-lg-11{
+    width: 91.66666666%;
+}
+
+.col-lg-12{
+    width: 100%;
+}
+
+
+.mailchimp-wrapper{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.ipt-pointe{
+    outline:none;
+    caret-color:red;
+}
+
+.sub-pointe{
+    cursor: pointer;
+}
+
+@supports (caret-color: red) { 
+    .sub-pointe, .sub-pointe, [contenteditable] {
+    color: #000; /* 文本颜色 */ 
+    caret-color: red; /* 光标颜色 */ 
+    } 
+} 

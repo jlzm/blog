@@ -1,0 +1,68 @@
+
+.footer{
+    margin: 30px;
+}
+
+.email-wrapper, .spacing{
+    margin-top: 20px;
+}
+
+
+.mailchimp-title h2{
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+
+.email-wrapper .email-input, .email-wrapper .email-sub{
+    border: none;
+    line-height: 1.1;
+    padding: 20px;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    
+}
+
+.email-wrapper .email-input:hover{
+    background: rgba(0,0,0,.04);
+}
+
+
+.email-wrapper .email-sub{
+    background: #ff5722;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.email-wrapper .email-sub:hover{
+    background: #f44336;
+}
+
+.footer .bd, .footer a{
+    color: #6c7279;
+}
+
+.footer .bd > *{
+    padding:10px 10px 0 0;
+    font-size: 12px;
+}
+
+
+.footer .ftl{
+    font-size: 1.3rem;
+    color: #000;
+    letter-spacing: 4px;
+    padding:0 0 20px;
+    font-weight: 400;
+}
+
+.foot-share a{
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
+
+
+.footer a:hover{
+    color: #000;
+}

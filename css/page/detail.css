@@ -1,0 +1,26 @@
+
+.main, .title-wrapper{
+    padding-top: 40px;
+}
+
+.title-wrapper{
+    text-align: center;
+}
+
+
+.title-wrapper li{
+    display: inline-block;
+}
+
+.text-wrapper{
+    max-width: 799px;
+    margin: 10px 20px 0px auto;
+}
+
+.text-wrapper p{
+    padding:10px 0;
+    font-size: 1.4rem;
+    color:rgba(0,0,0,.6);
+    line-height: 2rem;
+}
+

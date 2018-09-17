@@ -1,0 +1,147 @@
+.featured-wrapper, .posts-wrapper, .theme-wrapper, .posts-more, .hot-topic-link-type{
+    text-align: center;
+}
+
+
+
+
+/* ====内容区==== */
+
+.nav-global{
+    background: rgba(0,0,0,.3);
+}
+
+.bd-box{
+    margin-top:10px ;
+}
+
+.content .card-box{
+    margin: 25px 25px 0 0;
+    display: block;
+}
+
+.describe{
+    padding: 20px;
+}
+
+.featured-title
+{
+    font-size: 3.4rem;
+}
+
+.posts-title{
+    font-size: 2rem;
+}
+
+.desc-attribute{
+    padding-top: 10px;
+    color: rgba(0,0,0,.7);
+    font-size: 1.2rem;
+    word-wrap:break-word;
+}
+
+.title-attribute{
+    color: #000;
+    word-wrap:break-word;
+}
+
+.card-box:hover.card-box .title-attribute {
+    color: #03a9f4;
+}
+
+.posts-more a{
+    border: 1px solid #000;
+    padding: 20px 30px;
+    margin: 20px;
+    color: #000;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+}
+
+.posts-more a:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+.posts-more{
+    margin-top: 30px; 
+}
+
+/* ====侧边栏==== */
+
+.sidebar{
+    margin-left: 20px;
+}
+
+.search-sidebar{
+    margin-top: 25px;
+}
+
+.search-sidebar .sec, .search-sidebar .sub{
+    border: none;
+    line-height: 1.1;
+    padding: 14px;
+    border: 1px solid #000;
+  
+}
+
+.search-sidebar .sub{
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.sub-pointer:hover{
+    background: #fff18b;
+    color: #131421;
+}
+
+.sdb-box, .other{
+    margin-top: 30px;
+}
+
+.interior-title{
+    font-size: 1.7rem;
+    line-height: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.list-box{
+    margin: 20px 40px;
+}
+
+.number-bd {
+    color: #000;
+}
+
+.number{
+    font-family: "Ano-Bold",Arial;
+    font-size: 2.6rem;
+}
+
+.number-title{
+    font-size: 1.5rem;
+    padding-left: 40px;
+}
+
+.number-bd:hover {
+    color: #2196f3;
+}
+
+.hot-topic-link-type{
+    text-align: center;
+}
+
+.hot-topic-link-type a{
+    font-size: 1.2rem;
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-family: "Ano-Bold",Arial;
+    color: #0018ff;
+}
+
+.hot-topic-link-type a:hover{
+    color: #000;
+}
